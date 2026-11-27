@@ -44,7 +44,6 @@ musteriler ──< polisler >── agentler
 | `iddialar.odenilen_mebleg` | Amount actually paid (NULL for claims still under review) |
 | `iddialar.baxilma_tarixi` | Claim resolution date (NULL for claims still under review) |
 
-A full column dictionary is in the `Sutun_izahi` sheet of `data/sigorta_datasi.xlsx`. Column names are written without special characters (no ə, ı, ş) to make SQL import easier.
 
 ## How to run
 
@@ -93,4 +92,4 @@ The script can be re-run safely (it drops and recreates the tables).
 
 ## Author
 
-[Your Name] · [Your LinkedIn URL]
+Gunel Khalilli · https://www.linkedin.com/in/gunel-khalilli-390bb32b7/
